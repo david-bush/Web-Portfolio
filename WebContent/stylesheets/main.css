@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+.background {
+	background-image: url('../images/backgroundWelcome.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-attachment: fixed;
+}
+.circleHeadshot {
+	object-fit: cover;
+    width: 4em;
+    height: 4em;
+    -webkit-border-radius: 2em;
+}
+.header {
+	font-family: 'Arial', sans-serif;
+	font-size:3em;
+	color: #fff; 
+	text-align: center; 
+	vertical-align: middle; 
+	margin-top:2em;
+}
+.headerIntro {
+	margin-right: 25%;
+    margin-left: 25%;
+	vertical-align: -webkit-baseline-middle;
+	margin-top: 0.5em;
+	background: rgba(15, 15, 15, 0.3);
+	-webkit-border-radius: 0.5em;
+	-webkit-transition: all .2s ease-out;
+}
+.headerLinks {
+	margin-right: 1em;
+	font-size:0.75em;
+	display:block;
+	text-decoration: none;
+	color: #fff;
+	vertical-align: -webkit-baseline-middle;
+	float:right;
+}
+.githubIcon {
+	width: 2em;
+	height: 2em;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	vertical-align:-webkit-baseline-middle;
+}
+.linkedInIcon {
+	width: 2em;
+	height: 2em;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	vertical-align:-webkit-baseline-middle;
+}
+.center {
+	vertical-align: -webkit-baseline-middle;
+}
+.clearFix {
+	clear:right;
+}
